@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'roboto' sans-serif;
+}
+.barra-menu{
+    position:fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:#f0efed;
+    z-index: 9;
+    overflow: visible;
+    
+    
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 10vw;
+    position: static;    
+   
+}
+.icones{
+    display: flex;
+}
+.linha{
+    size: 1cm;
+    color: #a9a9a9;
+    padding: 0px 0vw;
+
+}
+.brand-logo{
+    height: 60px;
+}
+.nav-items{
+    display:var(--fa-display, in line-block);
+    align-items: center;
+    overflow: visible;
+    
+
+}
+.search{
+    width: 500px;
+    display: flex;
+}
+.search-box{
+   width: 80%;
+   height: 24px; 
+   padding: 10px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   border: 1px solid #d1d1d1;
+   text-transform: capitalize;
+   background: none;
+   color: #a9a9a9;
+   outline: none;
+}
+.search-btn{
+    width: 20%;
+    height: 45px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #383838;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+input.search-box::placeholder{
+    color: #a9a9a9;
+    
+}
+.nav-items a img{
+    height: 30px;
+}
+.nav-items a{     
+    margin-left: 20px;
+}
+.teste{
+    width: 1em;
+    margin-top:0%;
+    justify-content: center;
+}
+#links{   /** aplicacao de css ao elemento html que possui um identificador (id)*/
+    width: 10%;
+    display: flex;
+    
+    list-style: none;
+    
+    padding: 0px 30vw;
+}
+.li-link{
+    padding: 10px;
+}   
+.li-link a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #383838;
+    opacity: 0.5;
+    justify-content: center;
+}
+.li-link a:hover{       /**para mudar o comportamento qndo colocamos o mouse em cima */  
+    opacity: 1;
+    text-decoration: underline;
+    color: black;
+      }
+.sub-heading{
+    font-style:normal;
+    font-family: Arial Narrow Bold;    
+}
